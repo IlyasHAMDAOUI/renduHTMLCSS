@@ -4,15 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Vollkorn+SC:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
     <title>Bougie</title>
   </head>
   <body>
     <header>
       <section class="banniere">
-        <img id="img1" src="logoM.svg" alt="logoMarron" />
+        <a href="index.html"><img id="img1" src="logoM.svg" alt="logoMarron" /></a>
         <nav>
           <ul>
-            <li><a href="">A propos</a></li>
+            <li><a href="Apropos.html">A propos</a></li>
             <li><a href>Boutique</a></li>
             <li><a href>Contact</a></li>
           </ul>
@@ -83,33 +89,32 @@
           </div>
         </section>
       </section>
-      <section>
+      <section class="placeCentre">
         <h4>Nous contacter</h4>
 
-        <form class="formulaire card">
-          <section>
+        <form class="carded">
+          <section class="formRow1">
             <div>
               <label for="Prenom">Prenom</label>
               <input type="text" name="Prenom" class="formulaire" />
             </div>
             <div>
-              <label for="Nom">Nom</label>
+              <label for="Mail">Mail</label>
               <input type="text" name="Nom" class="formulaire" />
             </div>
           </section>
 
           <div>
-            <label for="description">Description</label>
-            <input type="text" name="description" class="formulaire" />
+            <label for="Message">Message</label>
+            <input type="text" name="Message" class="formulaire" />
           </div>
-          <button>
-            <p>Envoyer</p>
-          </button>
+          <button>Envoyer</button>
         </form>
       </section>
     </main>
-    <footer>
-      <section>
+
+    <footer class="bas">
+      <section class="footerCenter">
         <img src="logoB.svg" alt="logoBlanc" />
         <p>
           Bougies artisanales coulées à la main en France, avec des ingredients
